@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d1a13bec-864e-4f20-a977-996dfa6360a8" name="amazon-cpu-instance" url="http://ec2-52-87-163-233.compute-1.amazonaws.com">
+        <fileTransfer host="ec2-52-87-163-233.compute-1.amazonaws.com" port="22" privateKey="H:\github\Aazhamanakalvi.pem" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
